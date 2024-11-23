@@ -1,0 +1,33 @@
+server:
+  port: 8081
+spring:
+  #  datasource:
+  #    url: jdbc:mysql://${MYSQL_HOST:20.42.63.67}:3306/BookStoreDB
+  #    #    url: jdbc:sqlserver://localhost:1433;databaseName=master
+  #    username: root
+  #    password: 123456aA@
+  #    driver-class-name: com.mysql.cj.jdbc.Driver
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=SpringProject
+    #    url: jdbc:sqlserver://localhost:1433;databaseName=master
+    username: sa
+    password: 1234$
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+#  thymeleaf:
+#    prefix=classpath:/templates-2/:
+book:
+  token:
+    secret: jfKLSJLsdkfjFJSKLDFkajsIOJOIfsdA
+    expriedTime: 86400000
+minio:
+  endpoint: https://bookstores.zapto.org:9000/images
+  accessKey: RsCAUbfZlFONye5aPNfQ
+  secretKey: 28LGldQJbqu6kx2waeNXwZkrADRDc6gOmapsh6mR
+  uploadFolder: uploads
+logging:
+  level:
+    root: INFO
