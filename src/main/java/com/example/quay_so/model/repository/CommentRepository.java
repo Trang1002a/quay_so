@@ -1,4 +1,4 @@
-package com.bookstore.quay_so.model.repository;
+package com.example.quay_so.model.repository;
 
 import com.example.quay_so.model.entity.CommentsEntity;
 import org.springframework.data.domain.Page;

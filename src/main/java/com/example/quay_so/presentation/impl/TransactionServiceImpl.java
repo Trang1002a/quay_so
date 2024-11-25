@@ -1,10 +1,10 @@
 package com.example.quay_so.presentation.impl;
 
-import com.bookstore.quay_so.model.entity.*;
-import com.bookstore.quay_so.model.repository.*;
-import com.bookstore.quay_so.model.request.transaction.*;
-import com.bookstore.quay_so.utils.*;
-import com.bookstore.quay_so.utils.validate.*;
+import com.example.quay_so.model.entity.*;
+import com.example.quay_so.model.repository.*;
+import com.example.quay_so.model.request.transaction.*;
+import com.example.quay_so.utils.*;
+import com.example.quay_so.utils.validate.*;
 import com.example.quay_so.exception.ErrorCode;
 import com.example.quay_so.exception.ProjectException;
 import com.example.quay_so.jwt.PasswordService;

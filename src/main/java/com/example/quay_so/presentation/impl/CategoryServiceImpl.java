@@ -4,7 +4,7 @@ import com.example.quay_so.exception.ErrorCode;
 import com.example.quay_so.exception.ProjectException;
 import com.example.quay_so.model.dto.UserInfoDto;
 import com.example.quay_so.model.entity.CategoriesEntity;
-import com.bookstore.quay_so.model.repository.CategoryRepository;
+import com.example.quay_so.model.repository.CategoryRepository;
 import com.example.quay_so.model.request.categories.CategoryResponse;
 import com.example.quay_so.model.request.categories.GetAllCategoryRequest;
 import com.example.quay_so.model.request.categories.GetAllCategoryResponse;

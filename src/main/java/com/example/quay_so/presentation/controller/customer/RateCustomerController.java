@@ -1,6 +1,6 @@
 package com.example.quay_so.presentation.controller.customer;
 
-import com.bookstore.quay_so.model.request.rate.*;
+import com.example.quay_so.model.request.rate.*;
 import com.example.quay_so.model.response.ResStatus;
 import com.example.quay_so.presentation.service.RateService;
 import com.example.quay_so.model.request.rate.PostCommentRequest;

@@ -1,6 +1,6 @@
 package com.example.quay_so.presentation.controller.customer;
 
-import com.bookstore.quay_so.model.request.books.*;
+import com.example.quay_so.model.request.books.*;
 import com.example.quay_so.model.request.books.*;
 import com.example.quay_so.presentation.service.BookService;
 import org.springframework.web.bind.annotation.*;

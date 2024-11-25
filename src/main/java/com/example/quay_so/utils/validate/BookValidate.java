@@ -5,7 +5,7 @@ import com.example.quay_so.exception.ProjectException;
 import com.example.quay_so.model.entity.BooksEntity;
 import com.example.quay_so.model.entity.CategoriesEntity;
 import com.example.quay_so.model.repository.BookRepository;
-import com.bookstore.quay_so.model.repository.CategoryRepository;
+import com.example.quay_so.model.repository.CategoryRepository;
 import com.example.quay_so.model.request.books.BookRequest;
 import com.example.quay_so.utils.StatusType;
 import org.apache.commons.lang3.StringUtils;

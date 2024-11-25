@@ -1,8 +1,8 @@
 package com.example.quay_so.presentation.impl;
 
-import com.bookstore.quay_so.model.entity.*;
-import com.bookstore.quay_so.model.repository.*;
-import com.bookstore.quay_so.model.request.books.*;
+import com.example.quay_so.model.entity.*;
+import com.example.quay_so.model.repository.*;
+import com.example.quay_so.model.request.books.*;
 import com.example.quay_so.exception.ErrorCode;
 import com.example.quay_so.exception.ProjectException;
 import com.example.quay_so.model.dto.UserInfoDto;
